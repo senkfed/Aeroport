@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
 }
 
-.main-page img{
+.section-first img{
     width: 1318.84px;
     display: block; 
     margin: 0 auto;
@@ -93,7 +93,7 @@ body {
 
 .line-1 { 
     left: 325px;
-    top: 133px;
+    top: 132px;
     width: 135px;
     transform-origin: left center;
     transform: rotate(60deg);
@@ -150,7 +150,7 @@ body {
 .rule-title {
     font-size: 80px;
     font-weight: 500;
-    line-height: 1.15;
+    line-height: 0.95;
     margin-bottom: 72px;
 }
 
@@ -209,4 +209,104 @@ body {
     font-weight: 700; 
     font-style: italic;
     padding-right: 16px; 
+}
+
+.section-third {
+    height: 1318px;
+    padding: 45px 44px 0;
+    background: #E73C2E;
+    color: #f2f2f2;
+    border-radius: 60px;
+}
+
+.glyph-title {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 0.95;
+    margin-bottom: 41px;
+}
+
+.glyph-grid {
+    width: 1351px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: 575px 160px 1fr;
+    gap: 3px;
+    padding: 3px;
+    height: 979px;
+    background: #f2f2f2;
+}
+
+.text-cell {
+    background: #E73C2E;
+    padding: 25px 20px 0;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.text-cell.mono {
+    font-family: 'Aeroport Mono';
+}
+
+.text-cell.wide {
+    grid-column: 3 / 5;
+}
+
+.letter-cell {
+    background: #E73C2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.glyph {
+    position: relative;
+    display: block;
+    font-size: 352.8px;
+    font-weight: 700;
+    line-height: 0.75;
+    color: transparent;
+    -webkit-text-stroke: 3px #f2f2f2;
+}
+
+.glyph img {
+    position: absolute;
+    display: block;
+    max-width: none;
+    pointer-events: none;
+}
+
+.glyph-b img {
+    width: 86px;
+    height: 346px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.glyph-a img {
+    width: 204px;
+    height: 194px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, calc(-50% - 78px));
+}
+
+.fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f2f2f2;
+    -webkit-text-stroke: 0;
+}
+
+.fill-m {
+    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+}
+
+.fill-r {
+    clip-path: polygon(30% 65%, 100% 65%, 100% 100%, 30% 100%);
 }
