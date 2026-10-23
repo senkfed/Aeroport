@@ -129,3 +129,84 @@ body {
     border-bottom: 3px solid #f2f2f2;
     border-right: 3px solid #f2f2f2;
 }
+
+.section-second {
+    display: flex;
+    justify-content: space-between;   
+    align-items: stretch;            
+    padding: 100px 54px;
+    background: #f2f2f2;
+    color: #4183FF;             
+}
+
+.rule-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 520px;
+    flex-shrink: 0;
+}
+
+.rule-title {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1.15;
+    margin-bottom: 72px;
+}
+
+.strike {
+    font-weight: 700;
+    text-decoration: line-through;
+    text-decoration-thickness: 4px;
+}
+
+.rule-text {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.15;
+    max-width: 460px;
+}
+
+.rule-text p + p {
+    margin-top: 36px;
+}
+
+.shift-grid {
+    width: 745px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 9px;
+    padding: 9px;
+    background: #4183FF;
+    flex-shrink: 0; 
+    align-self: flex-start;
+}
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 1;
+    padding-bottom: 14px;
+    aspect-ratio: 1 / 1;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.cell.b  { 
+    font-weight: 700; 
+}
+
+.cell.i  { 
+    font-style: italic;
+    padding-right: 16px; 
+}
+
+.cell.bi { 
+    font-weight: 700; 
+    font-style: italic;
+    padding-right: 16px; 
+}
