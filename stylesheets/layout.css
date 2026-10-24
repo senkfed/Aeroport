@@ -310,3 +310,43 @@ body {
 .fill-r {
     clip-path: polygon(30% 65%, 100% 65%, 100% 100%, 30% 100%);
 }
+
+.section-fourth {
+    position: relative;      
+    height: 676px;           
+    margin-top: 40px;        
+    overflow: hidden;
+    background: #f2f2f2;        
+    color: #E73C2E;
+}
+
+.letter {
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    font-size: var(--s);
+    font-weight: 400;
+    line-height: 1;
+    white-space: nowrap;
+    transform: translate(-50%, -50%) rotate(var(--r));
+    transform-origin: 50% 58%;
+    user-select: none;
+}
+
+.cloud-label {
+    position: absolute;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E73C2E;
+}
+
+.cloud-label-top    { 
+    top: 0px;    
+    right: 70px; 
+}
+
+.cloud-label-bottom { 
+    bottom: 40px; 
+    left: 48px; 
+}
