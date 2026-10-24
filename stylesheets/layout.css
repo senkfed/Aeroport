@@ -618,3 +618,59 @@ body {
     font-size: 26px;
     line-height: 1.15;
 }
+
+.section-seventh {
+    height: 900px;
+    padding: 0px 54px 0;
+    color: #E73C2E;
+}
+
+.free-title {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 0.95;
+}
+
+.free-text {
+    margin-top: 64px;
+    max-width: 1330px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.price-row {
+    display: grid;
+    grid-template-columns: 816px auto;
+    margin-top: 60px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+}
+
+.price-svg {
+    display: block;
+    overflow: visible;
+}
+
+.price-text {
+    font-family: 'Aeroport';
+    font-weight: 700;
+    font-size: 250px;
+    fill: #E73C2E;
+    stroke: #E73C2E;
+    stroke-width: 8px;
+    stroke-dasharray: 3 6;
+    stroke-linejoin: round;
+    paint-order: stroke fill;
+}
+
+.price-label {
+    margin-top: 12px;
+    font-size: 36px;
+    font-weight: 400;
+}
