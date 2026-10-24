@@ -40,6 +40,19 @@ body {
     height: 36px; 
     background: #f2f2f2; 
     flex-shrink: 0; 
+    position: relative;  
+}
+
+.square::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 46%;
+    width: 28%;
+    height: 56%;
+    border: solid #4183FF;
+    border-width: 0 4px 4px 0;
+    transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .p1{
