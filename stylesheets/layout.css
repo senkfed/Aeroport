@@ -674,3 +674,50 @@ body {
     font-size: 36px;
     font-weight: 400;
 }
+
+.footer {
+    position: relative;
+    height: 212px;
+    background: #E73C2E;
+    color: #f2f2f2;
+    border-radius: 60px 60px 0px 0px;
+}
+
+.footer-author {
+    position: absolute;
+    left: 56px;
+    top: 67px;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.footer-mail {
+    position: absolute;
+    left: 56px;
+    top: 131px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.footer-year {
+    position: absolute;
+    right: 44px;
+    top: 67px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.footer-social {
+    position: absolute;
+    right: 44px;
+    top: 114px;
+    display: flex;
+    gap: 42px;
+}
+
+.footer-social img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
