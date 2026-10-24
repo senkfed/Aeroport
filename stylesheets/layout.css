@@ -238,12 +238,28 @@ body {
     background: #f2f2f2;
 }
 
+.glyph-grid > .text-cell:nth-child(5),
+.glyph-grid > .text-cell:nth-child(6),
+.glyph-grid > .text-cell:nth-child(7) {
+    box-shadow: 3px 0 0 #E73C2E, 0 3px 0 #E73C2E, 3px 3px 0 #E73C2E;
+}
+
+.glyph-grid > .text-cell:nth-child(8) {
+    box-shadow: 0 3px 0 #E73C2E;
+}
+
+.glyph-grid > .text-cell:nth-child(11) {
+    box-shadow: none;
+}
+
 .text-cell {
-    background: #E73C2E;
+    background: #f2f2f2;
+    color: #E73C2E;
     padding: 25px 20px 0;
     font-size: 26px;
     font-weight: 400;
     line-height: 1.1;
+    box-shadow: 3px 0 0 #E73C2E;
 }
 
 .text-cell.mono {
@@ -504,4 +520,101 @@ body {
 .w-bi      { 
     font-weight: 700; 
     font-style: italic; 
+}
+
+.section-sixth {
+    position: relative;
+    height: 1515px;
+    margin-top: 40px;
+    overflow: hidden;
+    color: #E73C2E;
+}
+
+.screen-title {
+    position: absolute;
+    left: 54px;
+    top: 50px;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 0.95;
+}
+
+.conveyor {
+    position: absolute;
+    left: 0;
+    top: 250px;
+    width: 1380px;
+}
+
+.screen-text {
+    position: absolute;
+    left: 758px;
+    top: 340px;
+    width: 570px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #E73C2E;
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.badge-caret, .badge-quote, .badge-semi { 
+    position: absolute; 
+}
+
+.badge-caret { 
+    left: 758px;  
+    top: 576px;  
+    padding-top: 8px;
+    font-size: 40px; 
+}
+
+.badge-quote { 
+    left: 1295px; 
+    top: 840px;  
+    padding-top: 20px;
+    font-size: 64px; 
+}
+
+.badge-semi  { 
+    left: 86px;   
+    top: 1137px; 
+    padding-bottom: 15px;
+    font-size: 48px; 
+}
+
+.badge-dot::after {
+    content: "";
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #f2f2f2;
+}
+
+.screen-note {
+    position: absolute;
+    left: 790px;
+    top: 1150px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.screen-note p {
+    font-size: 26px;
+    line-height: 1.15;
 }
