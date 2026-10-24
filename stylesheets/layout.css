@@ -150,7 +150,7 @@ body {
 .rule-title {
     font-size: 80px;
     font-weight: 500;
-    line-height: 0.95;
+    line-height: 1;
     margin-bottom: 72px;
 }
 
@@ -222,7 +222,7 @@ body {
 .glyph-title {
     font-size: 80px;
     font-weight: 500;
-    line-height: 0.95;
+    line-height: 1;
     margin-bottom: 41px;
 }
 
@@ -425,7 +425,7 @@ body {
     top: 70px;
     font-size: 80px;
     font-weight: 500;
-    line-height: 0.95;
+    line-height: 1;
 }
 
 .weight-intro {
@@ -536,7 +536,7 @@ body {
     top: 50px;
     font-size: 80px;
     font-weight: 500;
-    line-height: 0.95;
+    line-height: 1;
 }
 
 .conveyor {
@@ -628,7 +628,7 @@ body {
 .free-title {
     font-size: 80px;
     font-weight: 500;
-    line-height: 0.95;
+    line-height: 1;
 }
 
 .free-text {
